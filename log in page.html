@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <div class="login">
+        <div class="logo">
+            <i class='bx bx-user-circle'></i>
+            <h2>Login</h2>
+        </div>
+
+        <!-- Login Form -->
+        <form action="#" class="login-form">
+            <div class="input_box">
+                <span>Username</span>
+                <div class="icon">
+                    <i class='bx bxs-user'></i>
+                    <input type="text" placeholder="Enter Username" required>
+               </div> 
+            </div>
+
+            <div class="input_box">
+                <span>Password</span>
+                <div class="icon">
+                    <i class='bx bxs-lock-alt' ></i>
+                    <input type="password" placeholder="Enter Password" required>                 
+                </div>
+            </div>
+            
+            <div class="input_box">
+                <input type="submit" value="Login">
+            </div>
+        </form>
+
+        <!-- Social Media Login Buttons -->
+        <div class="social-login">
+            <button onclick="loginWithFacebook()">Login with Facebook</button>
+            <button onclick="loginWithInstagram()">Login with Instagram</button>
+            <button onclick="loginWithGoogle()">Login with Google</button>
+        </div>
+    </div>
+    
+    <!-- Script for Social Media Login -->
+    <script>
+        function loginWithFacebook() {
+            // Your Facebook login code here
+            alert("Facebook login clicked");
+        }
+
+        function loginWithInstagram() {
+            // Your Instagram login code here
+            alert("Instagram login clicked");
+        }
+
+        function loginWithGoogle() {
+            // Your Google login code here
+            alert("Google login clicked");
+        }
+    </script>
+</body>
+</html>
